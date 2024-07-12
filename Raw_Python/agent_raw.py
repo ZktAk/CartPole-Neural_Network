@@ -122,7 +122,7 @@ class RLAgent:
 		if (np.random.random() > self.epsilon):
 			return np.argmax(values)
 		else:
-			return np.random.randint(self.env.action_space.n)
+			return np.random.randint(self.output_size)
 
 
 	def forward(self, observation, remember_for_backprop=True):
