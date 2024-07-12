@@ -6,4 +6,4 @@ Two versions of the neural network excist in their corrisponding directories:
 
 (I know I'm stating the obviouse here, but I don't know what else to put in this README. I'll update this later.)
 
-Run main_raw.py or main_torch.py to run either version
+Run ```python3 main_raw.py``` or ```puthon3 main_torch.py``` to run either version
